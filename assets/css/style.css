@@ -168,6 +168,17 @@ html {
     margin-bottom: 40px;
 }
 
+.protolink a:link{
+    color: #807E7E;
+}
+.protolink a:visited {
+    color: #807E7E;
+}
+.protolink a:hover{
+    color: black;
+}
+
+
 .process-btn {
     outline: none;
     border: none;

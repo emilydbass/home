@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+/* Header Style  */
+
+.header {
+    background-color: #000;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-social-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-social-icon svg {
+    height: 3rem;
+    width: 3rem;
+    fill: #898686;
+    cursor: pointer;
+}
+
+.header-social-icon svg:hover {
+    fill: #fff;
+    transition: 0.1s linear;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #898686;
+    font-size: 2.5rem;
+    font-weight: 80;
+}
+
+.navigation li a:hover {
+    color: #fff;
+    transition: 0.1s linear;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    height: calc(100vh - 200px);
+
+}
+
+.hero-title {
+    font-weight: 300;
+    font-size: 6.4rem;
+   
+}
+
+.animated-text {
+    font-size: 3.6rem;
+    font-weight: 200;
+}
+
+.animated-text::after {
+    content: "|";
+    display: inline;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* Work Style  */
+.work-section {
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.work-title {
+    padding-block: 50px;
+    font-weight: 400;
+    color: #000;
+    font-size: 4rem;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.work-desc {
+    flex: 1;
+}
+
+.work-img {
+    flex: 1;
+}
+
+.work-img img {
+    width: 100%;
+}
+
+.work-desc h3 {
+    font-size: 3.2rem;
+    color: #807E7E;
+    font-weight: 300;
+}
+
+.work-desc h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #000;
+    margin: 2px 0;
+}
+
+.work-desc p {
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.process-btn {
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    padding-block: 20px;
+    padding-inline: 40px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    gap: 15px;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+
+.process-btn .arrow-icon {
+    width: 40px;
+    height: 11px;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #B5AFAF;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active,
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: #c2c2c2;
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+.swiper {
+    padding-bottom: 60px !important;
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 35%;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: #B5AFAF;
+        opacity: 1;
+        width: 18px;
+        height: 18px;
+    }
+
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active,
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+        background-color: #c2c2c2;
+    }
+}
+
+
+/* mobile/tablet */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        padding: 0 35px;
+    }
+}
+
+
+/* desktops*/
+@media only screen and (min-width: 992px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .work {
+        flex-direction: row;
+    }
+
+    .swiper {
+        padding-bottom: 100px !important;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .swiper-wrapper {
+        margin-bottom: 50px !important;
+    }
+
+    .swiper-pagination {
+        bottom: 100px !important;
+    }
+
+    .hero-title{
+        margin-left: 130px;
+    }
+
+    .animated-text{
+        margin-left: 130px;
+    }
+
+}

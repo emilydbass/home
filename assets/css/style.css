@@ -230,7 +230,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
 /* mobile */
 @media only screen and (max-width: 600px) {
     html {
-        font-size: 35%;
+        font-size: 40%;
     }
 
     .container {
@@ -238,22 +238,22 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
     }
 
     .process-btn {
-        padding-block: 8px;
-        padding-inline: 18px;
+        padding-block: 7px;
+        padding-inline: 16px;
     }
 
     span.swiper-pagination-bullet.swiper-pagination-bullet-active {
         background-color: #B5AFAF;
         opacity: 1;
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
     }
 
     span.swiper-pagination-bullet.swiper-pagination-bullet-active,
     .swiper-pagination-clickable .swiper-pagination-bullet {
         cursor: pointer;
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
         background-color: #c2c2c2;
     }
 }

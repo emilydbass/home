@@ -149,13 +149,13 @@ html {
 }
 
 .work-desc h3 {
-    font-size: 3rem;
+    font-size: 1.8em;
     color: #807E7E;
-    font-weight: 300;
+    font-weight: 280;
 }
 
 .work-desc h2 {
-    font-size: 4.3rem;
+    font-size: 4.2rem;
     font-weight: 30;
     color: #000;
     margin: 3px 0;
@@ -180,7 +180,7 @@ html {
 }
 
 
-.process-btn {
+/* .process-btn {
     outline: none;
     border: none;
     background-color: #D9D9D9;
@@ -199,7 +199,7 @@ html {
 .process-btn .arrow-icon {
     width: 40px;
     height: 11px;
-}
+} */
 
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: #B5AFAF;
@@ -237,10 +237,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
         padding: 0 20px;
     }
 
-    .process-btn {
+    /* .process-btn {
         padding-block: 7px;
         padding-inline: 16px;
-    }
+    } */
 
     .protolink{
         margin-bottom: 10px !important;

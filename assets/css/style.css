@@ -113,9 +113,9 @@ html {
     cursor: pointer;
   }
 
-.more_button_text:link{
+.more_button_text a:link{
     text-decoration: none;
-    color: #white;
+    color: white;
 }
 .more_button_text a:visited {
     text-decoration: none;
@@ -123,7 +123,7 @@ html {
    
 
 }
-.more_button_text:hover{
+.more_button_text a:hover{
     text-decoration: none;
     color: azure;
 

@@ -60,10 +60,33 @@
                     </div>
                 </div>
             </div>
+            
         </header>
 
         <main>
             <section>
+                <div class="container">
+                        <div class="work-carousel">
+                            <h2 class="work-title">Why UX?</h2>
+                            <div class="swiper workSlider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="work">
+                                            <div class="work-desc">
+                                                <h3><div>This meeting with a small group of designers..</div></h3>
+                                                <h2>That's why :)</h2>
+                                                <p>I have always loved problem solving! Now in my role as a Staff at EY, I am able to participate and contribute in design meetings for client facing work. </p>
+                                            </div>
+                                            <div class="work-img" id="work_meeting">
+                                                <img src="../emily !/misc/Image.jpg" alt="Image of a meeting invite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
                 <div class="work-section" id = "work-section">
                     <div class="container">
                         <div class="work-carousel">
@@ -91,7 +114,7 @@
                                         <div class="work">
                                             <div class="work-desc">
                                                 <h3>Research, Analysis, and User Testing</h3>
-                                                <h2>Process</h2>
+                                                <h2>Problem</h2>
                                                 <p> To truly understand user needs and pain points we conducted interviews, usability tests, and card sorting sessions. 
                                                     Improved information architecture was the first solution we explored to increase accessibility for users. A/B testing was conducted after each prototype iteration of our wireframes and showed a strong increase in both accessibility and user engagement.  </p>
                                                 <!-- <button class="process-btn work-button-next">
@@ -112,20 +135,49 @@
                                                 <p> Our prototype features a filter component, search functionality, and an expanded 3 page website. Our design recommendation helped to improve both the information architecture and the user experience for LC Labs. </p>
                                                <p class = "protolink"> <a href="https://www.figma.com/proto/5cWoLwd4IPRb1GyCOi301P/Wireframes?node-id=266%3A531&scaling=scale-down&page-id=230%3A3&starting-point-node-id=266%3A531&show-proto-sidebar=1 
                                                 " target="_blank">View Prototype!</a></p>
+
+                                                <p>Read more about this project! Here you can see a more detailed outline of the project scope, skills, and tools our team used!</p></p>
+                                                    <button type = "button" class = "more_button" onclick="document.getElementById('more').style.display='block'"><a href = "#more" class = "more_button_text">See more</a></button>
                                             </div>
                                             <div class="work-img">
-                                                <img src="./assets/images/carousel-img3.png" width="" alt="">
+                                                <img src="./assets/images/carousel-img3.png"  width="" alt="">
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-                                <div class="swiper-pagination"></div>
+                                <div class="swiper-pagination"></div>     
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+    
+            <section id="more">
+                <div class="work-desc">
+                    <h2 class="work-desc h2" id = "projdeets">Project Details</h2>
+                </div>
+              
+                <button class = "less_button" type = "button" onclick="document.getElementById('more').style.display='none'">See less!</button>             
+                   <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                  <img src="../portfolio/assets/images/1.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                  <img src="../portfolio/assets/images/2.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                  <img src="../portfolio/assets/images/3.jpg" alt="">
+                              </li>
+                          </ul>
+                    </div>
+                  </section>
+            </section>
+
+
+        
+
         </main>
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -144,6 +196,7 @@
     cursorChar: "|",
     attr: null,
   });
+  new Splide( '#image-carousel' ).mount();
   </script>
 
     </body>

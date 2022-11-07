@@ -16,6 +16,7 @@ html {
     font-size: 62.5%;
 }
 
+
 .container {
     width: 100%;
     padding: 0 50px;
@@ -78,6 +79,77 @@ html {
     transition: 0.1s linear;
 }
 
+#work_meeting{
+    width: 90%;
+    height: 90%;
+}
+
+
+.splide__slide img {
+    width: 30%;
+    height: auto;
+  }
+  
+
+  .splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .more_button{
+    background-color: #2e3152;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: azure;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+
+.more_button_text:link{
+    text-decoration: none;
+    color: #white;
+}
+.more_button_text a:visited {
+    text-decoration: none;
+    color: white;
+   
+
+}
+.more_button_text:hover{
+    text-decoration: none;
+    color: azure;
+
+}
+
+#projdeets{
+    display: flex;
+    padding: 50px 50px 10px 50px;
+}
+
+.less_button{
+    background-color: #2e3152;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: azure;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    margin: 20px 20px 20px 50px;
+}
 
 .hero {
     display: flex;
@@ -90,7 +162,7 @@ html {
 
 .hero-title {
     font-weight: 300;
-    font-size: 6.4rem;
+    font-size: 6.5rem;
    
 }
 
@@ -98,6 +170,8 @@ html {
     font-size: 3.6rem;
     font-weight: 200;
 }
+
+
 
 .animated-text::after {
     content: "|";
@@ -125,7 +199,7 @@ html {
 
 .work-title {
     padding-block: 50px;
-    font-weight: 400;
+    font-weight: 450;
     color: #000;
     font-size: 4rem;
 }
@@ -148,6 +222,9 @@ html {
     width: 100%;
 }
 
+.work-img:hover {
+}
+
 .work-desc h3 {
     font-size: 1.8em;
     color: #807E7E;
@@ -155,7 +232,7 @@ html {
 }
 
 .work-desc h2 {
-    font-size: 4.2rem;
+    font-size: 3.7rem;
     font-weight: 30;
     color: #000;
     margin: 3px 0;
@@ -225,7 +302,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
     padding-bottom: 60px !important;
 }
 
-
+#more {
+    display:none;
+}
 
 /* mobile */
 @media only screen and (max-width: 600px) {

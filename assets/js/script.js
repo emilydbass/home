@@ -8,3 +8,46 @@ var swiper = new Swiper(".workSlider", {
         nextEl: '.work-button-next',
     },
 });
+
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var btnText = document.getElementById("myBtn");
+    var moreText = document.getElementById("more");
+    
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "See more!"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "See less!"; 
+        moreText.style.display = "inline";
+      }
+   }
+
+
+   document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel', {
+      heightRatio: 0.5,
+    } ).mount();
+  } );
+
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#card-carousel', {
+          perPage    : 2,
+          breakpoints: {
+              640: {
+                  perPage: 1,
+              },
+          },
+    } ).mount();
+  } );
+
+
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#fullscreen-carousel', {
+          width : '80vh',
+          height: '80vh',
+    } ).mount();
+  } );

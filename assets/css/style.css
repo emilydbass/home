@@ -16,10 +16,9 @@ html {
     font-size: 62.5%;
 }
 
-
-.container {
+.container {    
     width: 100%;
-    padding: 0 50px;
+    padding: 0 50px 20px;
     margin: 0 auto;
 }
 
@@ -33,7 +32,7 @@ html {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 20px 0px 20px;
 }
 
 .header-social-icon {
@@ -79,9 +78,17 @@ html {
     transition: 0.1s linear;
 }
 
-#work_meeting{
-    width: 90%;
-    height: 90%;
+
+.work-imgs img {
+    width: 100%;
+}
+
+.work-img{ 
+    flex: 1;
+    width: 100%;
+    height: 80%;
+    border-radius: 70px;
+    padding-left: 50px;
 }
 
 
@@ -118,6 +125,24 @@ html {
      color: white;
   }
 
+.gif_s{
+    flex: 1;
+    width:90%;
+    height: 70%;
+    border-radius: 50px;
+    box-shadow: 0 8px 8px -4px rgb(67, 67, 67);
+
+}
+
+.gif_s2{
+    flex: 1;
+    width: 90%;
+    height: 70%;
+    border-radius: 50px;
+    box-shadow: 0 8px 8px -4px rgb(200,47,44);
+}
+
+
 #projdeets{
     display: flex;
     padding: 50px 50px 10px 50px;
@@ -148,12 +173,16 @@ html {
 .hero-title {
     font-weight: 300;
     font-size: 6.5rem;
+    margin-left: 50px;
    
 }
 
 .animated-text {
-    font-size: 3.6rem;
-    font-weight: 200;
+    font-size: 3.5rem;
+    font-weight: 90;
+    font-style: italic;
+    margin-left: 50px;
+
 }
 
 
@@ -177,57 +206,96 @@ html {
   }
 
 /* Work Style  */
+
+#xcel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .work-section {
     background-color: #fff;
-    min-height: 100vh;
+    min-height: 0px;
 }
 
 .work-title {
-    padding-block: 50px;
-    font-weight: 450;
+    padding-block:0px;
+    padding-left: 50px;
+    margin-top: 75px;
+    font-weight: 400;
     color: #000;
-    font-size: 4rem;
+    font-size: 4.3rem;
+    text-shadow: #000;
 }
 
 .work {
+    display: none;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.work1 {
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+    margin-bottom: 70px;
+}
+
+.work2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 220px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+
+.page-footer{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    justify-content: space-between;
+        width: 100%;
+        background-color: #F5F5F5;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: black;
+        text-align: center;
+}
+
+.swiper-wrapper{
+    display:none;
 }
 
 .work-desc {
     flex: 1;
+    padding-top: 80px;
+    padding-left: 50px;
 }
 
-.work-img {
+.work-imgs {
     flex: 1;
 }
 
-.work-img img {
-    width: 100%;
-}
-
-.work-img:hover {
-}
-
 .work-desc h3 {
-    font-size: 1.8em;
+    font-size: 2em;
     color: #807E7E;
-    font-weight: 280;
+    font-weight: 300;
+    
 }
 
 .work-desc h2 {
-    font-size: 3.7rem;
-    font-weight: 30;
+    font-size: 4.5rem;
+    font-weight: 150;
     color: #000;
-    margin: 3px 0;
+    margin-top: 5px;
 }
 
 .work-desc p {
     font-size: 2rem;
     font-weight: 190;
     color: #000;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -279,12 +347,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
 }
 
 .swiper-pagination {
+    display: none;
     bottom: 0 !important;
     margin-bottom: 20px !important;
 }
 
 .swiper {
-    padding-bottom: 60px !important;
+    padding-bottom: 0px 
 }
 
 #more {
@@ -298,7 +367,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
     }
 
     .container {
-        padding: 0 20px;
+        padding: 0 50px 20px;
     }
 
     /* .process-btn {
@@ -341,9 +410,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
 
 
 /* desktops*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1600px) {
     .container {
-        padding: 0 50px;
+        padding: 0 50px 20px;
     }
 
     .work {
@@ -371,7 +440,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
     }
 
     .hero-title{
-        margin-left: 130px;
+        margin-left: 150px;
     }
 
     .animated-text{

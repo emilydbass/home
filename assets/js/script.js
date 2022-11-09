@@ -51,3 +51,22 @@ function myFunction() {
           height: '80vh',
     } ).mount();
   } );
+
+
+  // SHOW the project code
+
+  function showCode() {
+    var state = document.getElementById("lc")
+    var contents = document.getElementById("work")
+    var bottom = document.getElementById("work-section")
+    contents.style.display = "flex"
+    bottom.style.height = "100vh";
+
+}
+
+
+function showCode2() {
+  var state = document.getElementById("Xcel")
+  window.alert("Coming soon! Check out the LC for Robots project while you wait.");
+}
+

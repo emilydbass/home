@@ -233,6 +233,19 @@ html {
     flex-direction: row;
     gap: 60px;
 }
+.lc_page{
+    display: flex;
+    flex-direction: column;
+   margin: 50px 50px 50px 50px;
+}
+.lc_page p{
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 1.5em;
+}
 
 .work1 {
     display: flex;

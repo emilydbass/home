@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LC for Robots</title>
-        <link rel="icon" href="./assets/images/favicon.png">
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="../assets/images/favicon.png">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     </head>
 
 <body> 
+    <header class="header-lc">
+        <div class="container-lc" id = "home">
+            <nav>
+                <div class="navbar-lc">
+                    <div class="header2-social-icon">
+                        <a href="mailto:emilydb@umich.edu" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/emily-bass-a341a2173/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://drive.google.com/file/d/185Mg0-_CJl5X9hrtUcEnuyz3I_zkc9wC/view?usp=sharing" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M18 22a2 2 0 0 0 2-2V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12zM13 4l5 5h-5V4zM7 8h3v2H7V8zm0 4h10v2H7v-2zm0 4h10v2H7v-2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <ul class="navigation-lc">
+                        <li>
+                            <a href="#lc">Work</a>
+                        </li>
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+
     <section>
-<div class="work-section" id = "work-section">
+<div class="work-section-lc" id = "work-section">
     <div class="lc_page">
-
-            <h2 class="work-title"> LC for Robots Case Study</h2>
-            <h2 class="work-title">      </h2>
-            <h2 class="work-title">  Project Background  </h2>
-                <p class = "lc_page"> LC for Robots is a subset of the Library of Congress Labs (LC Labs) that provides access to APIs, bulk data downloads, and other related computational access points for Library of Congress collection data. Their goal is to provide machine- readable access to its digital collections in order to make their data more widely accessible to the general public. Our team completed an eight-month collaborative project to assess our clients’ needs, understand our target users, develop a UX recommendation to meet those needs, and evaluate the impact of our designs. This final report covers the processes our team has accomplished to provide an improved user experience. 
-             </p>
-
-                <h2 class = "lc_page">LC for Robots needs improved information architecture and instructional material to better support current users and attract new users to the Library of Congress’ vast collections of data.  </h2>
+        <h2 class="work-title-lc"> LC for Robots Case Study</h2>
+        <div class = "top-section-lc"></div>
+            <h1 class = "banner-section-lc"></h1>
+            <h3 class="work-title-2-lc">  Project Background  </h3>
+                <p class = "lc_page_intro"> LC for Robots is a subset of the Library of Congress Labs (LC Labs) that provides access to APIs, bulk data downloads, and other related computational access points for Library of Congress collection data. Their goal is to provide machine- readable access to its digital collections in order to make their data more widely accessible to the general public. Our team completed an eight-month collaborative project to assess our clients’ needs, understand our target users, develop a UX recommendation to meet those needs, and evaluate the impact of our designs. </p>
+                <p class = "graphic_caption">Three stages: Research, Design, Evaluation<p>
+                <div>
+                <img src="../assets/images/case_study_1.png" alt="Current website " class= "case_img"></img>
+                </div>
+                <p class = "Problem_statement"> LC for Robots needs improved information architecture and instructional material to better support current users and attract new users to the Library of Congress’ vast collections of data. </p>
+                <img src="../assets/images/case_study_2.png" alt="Current website " class= "case_img"></img>
+                <h3 class="work-title-2-lc"> Goals and Motivations </h3>
+                <p class = "lc_page_intro"> 
+                    In order to reach a broader audience including researchers, analysts, students, and other inexperienced users, our team’s goals include: 
+                    1. Improve the time it takes users to find and access the information they are looking for. 
+                    2. Categorize all resources logically. 
+                    3. Incorporate instructional material and examples of use cases for datasets and APIs to improve accessibility for new users. 
+                    4. Refine the list of bulk data downloads and APIs to feature the most popular resources. 
+                    5. Improve upon the already existing LC for Robots branding guidelines. 
+                     </p>
     </div>
 </div>
 

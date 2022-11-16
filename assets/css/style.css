@@ -65,10 +65,11 @@ html {
 }
 
 .header-social-icon svg {
-    height: 3rem;
+    height:3rem;
     width: 3rem;
     fill: #898686;
     cursor: pointer;
+    
 }
 
 .header2-social-icon svg {
@@ -77,17 +78,21 @@ html {
     fill: black;
     cursor: pointer;
     margin-top: 50px;
+   
 }
 
 .header2-social-icon svg:hover {
-    fill: brown ;
-    transition: 0.1s linear;
+    underline;
+    red;
+    transition: 0.3s smooth; 
+
 }
 
 
 .header-social-icon svg:hover {
-    fill: #fff;
-    transition: 0.1s linear;
+
+    transition: 0.3s smooth; 
+
 }
 
 .navigation {
@@ -99,7 +104,6 @@ html {
 
 .navigation li {
     list-style: none;
-    margin-top:50px;
 }
 
 .navigation li a {
@@ -114,6 +118,7 @@ html {
 .navigation li a:hover {
     color: #fff;
     transition: 0.1s linear;
+    text-shadow: 0 0 1px rgb(255 255 255 / 30%);
 }
 
 
@@ -122,8 +127,7 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
-    margin-right: 50px;
+    gap: 30px;
 }
 
 .navigation-lc li {
@@ -139,8 +143,10 @@ html {
 }
 
 .navigation-lc li a:hover {
-    color: brown;
-    transition: 0.1s linear;
+    text-decoration: underline;
+    text-decoration-color: red;
+    transition: 0.2s smooth;
+    text-shadow: 0 0 1px rgb(255 255 255 / 30%);
 }
 
 
@@ -451,8 +457,13 @@ opacity: 1; }
     color: #807E7E;
 }
 .protolink a:hover{
-    color: black;
+    
+    text-decoration: underline;
+    text-decoration-color: red;
+    transition: 0.3s smooth;
+    text-shadow: 0 0 1px rgb(255 255 255 / 30%);
 }
+
 
 
 

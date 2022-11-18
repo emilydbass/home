@@ -53,7 +53,7 @@ html {
     display: flex;
     justify-content: space-between;
     background:#fff;
-    margin: 0px 10px -12px 120px;
+    margin: 0px 0px 30px 74px;
 }
 
 .header-social-icon {
@@ -72,6 +72,14 @@ html {
     
 }
 
+.header-social-icon svg :hover{
+    height:3rem;
+    width: 3rem;
+    fill: white;
+    cursor: pointer;
+    
+}
+
 .header2-social-icon svg {
     height: 3rem;
     width: 3rem;
@@ -82,18 +90,14 @@ html {
 }
 
 .header2-social-icon svg:hover {
-    underline;
-    red;
-    transition: 0.3s smooth; 
+    height: 3.2rem;
+    width: 3.2rem;
+    fill: #ca4300;
+    transition: 0.2s smooth;
+    text-shadow: 0 0 1px rgb(255 255 255 / 30%);
 
-}
+} 
 
-
-.header-social-icon svg:hover {
-
-    transition: 0.3s smooth; 
-
-}
 
 .navigation {
     display: flex;
@@ -121,13 +125,24 @@ html {
     text-shadow: 0 0 1px rgb(255 255 255 / 30%);
 }
 
+.header2-social-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-left: 50px;
 
+}
 
 .navigation-lc {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
+    margin-right:100px;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .navigation-lc li {

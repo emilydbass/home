@@ -61,7 +61,7 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 15px;
-    margin-left: 50px;
+
 }
 
 .header-social-icon svg {
@@ -574,10 +574,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
         font-size: 50%;
     }
 
-    html {
-        font-size: 62.5%;
-    }
-
     .swiper-wrapper {
         margin-bottom: 50px !important;
     }
@@ -587,11 +583,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active,
     }
 
     .hero-title{
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     .animated-text{
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
 }
